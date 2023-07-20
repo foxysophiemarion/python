@@ -199,14 +199,50 @@
 #clear = lambda: os.system('cls') #ОЧИСТКА КОНСОЛИ
 #clear()
 
-name = 'string\tstring2' #вывод через двойной пробел
-name2 = 'string\nstring2' #вывод через перенос строки
-name3= "\"string\"" #вывод кавычек
-name_input = int(input())
+#name = 'string\tstring2' #вывод через двойной пробел
+#name2 = 'string\nstring2' #вывод через перенос строки
+#name3= "\"string\"" #вывод кавычек
+#name_input = int(input())
 
-print(name)
-print(name2)
-print(name3)
-print(name_input)
-print(type(name_input))
+#print(name)
+#print(name2)
+#print(name3)
+#print(name_input)
+#print(type(name_input)) # type выводит класс в терминал
 
+
+
+#name_input = int(input("Введите число: 5"))
+#print(name_input)
+#print(type(name_input))
+
+#if name_input>10:
+#    print("Число > 10")
+#    chislo = 1
+#    if chislo == 1:
+#        chislo = 2
+#        print(chislo)
+#else:
+#    print("Число < 10")
+
+
+#name= "string"
+#if name == "string":
+#    print(1)
+#else:
+#    if name == "string2": # для удобства лучше использовать elif (ПРИМЕР БУДЕТ НИЖЕ)
+#        print(2)
+#    else:
+#        print(3)
+
+#name= "string"
+#if name == "string":
+#    print(1)
+#elif name == "string2":
+#    print(2)
+#elif name == "string3":
+#    print(3)
+#elif name == "string4":
+#    print(4)
+#elif name == "string5":
+#    print(5)
